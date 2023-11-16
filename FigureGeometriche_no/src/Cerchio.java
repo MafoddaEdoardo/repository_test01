@@ -28,6 +28,11 @@ public class Cerchio extends Forma {
     public void setRaggio(double raggio) {
         this.raggio = raggio;
     }
+    
+    public void prova()
+    {
+        System.out.println("prova");
+    }
 
     private double extracted() {
         return 2*raggio*Math.PI;
